@@ -37,4 +37,3 @@ function getToken() {
   //back to '' before committing so all tests pass
   return ''
 }
-
