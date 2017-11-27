@@ -34,6 +34,7 @@ function createIssue() {
 
 
 function showResults(json) {
+  $('#issues').append(issue.template())
 }
 
 function forkRepo() {
