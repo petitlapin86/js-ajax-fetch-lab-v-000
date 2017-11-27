@@ -16,6 +16,8 @@ const fork = `${userName}/javascript-fetch-lab`
 }
 
 function showIssues(json) {
+  $('#issues').append(issue.template())
+
 }
 
 function createIssue() {
