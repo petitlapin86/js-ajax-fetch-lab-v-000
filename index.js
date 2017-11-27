@@ -20,3 +20,7 @@ function getToken() {
   //back to '' before committing so all tests pass
   return ''
 }
+
+fetch('https://api.github.com/repos/jquery/jquery/commits')
+  .then(resp => resp.json())
+  .then(json => console.log(json));
