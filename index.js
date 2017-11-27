@@ -22,7 +22,7 @@ function getToken() {
 }
 
 const token = '39380f11db515d01709a391b20d05865f160cf64';
- 
+
 fetch('https://api.github.com/user/repos', {
   headers: {
     Authorization: `token ${token}`
