@@ -1,4 +1,10 @@
-function getIssues(data) {
+const userName = ''
+const baseApi = 'https://api.github.com/'
+const fork = `${userName}/javascript-fetch-lab`
+
+
+
+ getIssues(data) {
   fetch(`${baseApi}repos/${fork}/issues`).
     then(resp => {
       resp.json().then( data => {
