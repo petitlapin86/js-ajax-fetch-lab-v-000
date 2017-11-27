@@ -31,7 +31,7 @@ function createIssue() {
   }).then(resp => getIssues())
 }
 
-}
+
 
 function showResults(json) {
 }
